@@ -1,0 +1,35 @@
+<html>
+        <head>
+        <title>NUDES DO FAUSTÃO</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    </head>	
+        <style>
+            @font-face { font-family: Nexa; src: url('NEXA.otf'); } 
+      h1 {
+         font-family: Nexa;
+         color:white;
+         text-shadow: 2px 2px #665D5D;
+      }
+        body {
+background-color: #36393E;
+}
+        
+            </style>	
+        <body onload="press()">
+        <script>
+        var press = jQuery.Event("keypress");
+        press.ctrlKey = false;
+        press.which = 20;
+        function press(){
+        $("body").trigger(press);
+        }
+        </script>
+
+        <center>
+        <h1>VOCÊ CAIU NO VÍRUS DOS NUDES DO FAUSTÃO!</h1>
+<br>
+<h1>AGORA SUAS LETRAS ESTÃO GRANDE! (mentira)<h1>
+        </center>
+        </body>
+        </html>
+        
